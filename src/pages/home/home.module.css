@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 1rem;
+    margin: 0.25rem;
+    outline: none;
+}
+
+.err{
+    color: #f00;
+}
+
+form > button{
+    padding: 0.75rem;
+    cursor: pointer;
+    margin: 1rem;
+    border:none;
+    background-color: #00f;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.55rem;
+    transition: all 1s ease;
+    outline: none;
+}
+
+form > button:hover{
+    background-color: #00005c;
+}
